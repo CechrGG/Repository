@@ -1,6 +1,7 @@
 package com.cechr.test;
 
-import org.springframework.boot.SpringApplication;
+//import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -8,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @SpringBootApplication
 @Controller
 @RequestMapping("/test")
+@EnableAutoConfiguration
 public class TestApplication {
 
 	@RequestMapping("/hello")
@@ -15,7 +17,7 @@ public class TestApplication {
 		return "hello";
 	}
 	
-	public static void main(String[] args) {
-		SpringApplication.run(TestApplication.class, args);
-	}
+//	public static void main(String[] args) {
+//		SpringApplication.run(TestApplication.class, args);
+//	}
 }
