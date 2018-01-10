@@ -32,7 +32,8 @@
 	<div class="container">
 		<div class="starter-template">
 			<h1>Spring Boot WebApplication</h1>
-			<h2>Message: ${message }</h2>
+			<h2>Message:</h2>
+			<h4>${message }</h4>
 		</div>
 	</div>
 </body>
