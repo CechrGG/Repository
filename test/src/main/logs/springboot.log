@@ -31,3 +31,495 @@
 2018-01-10 16:02:42.291  INFO 14020 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
 2018-01-10 16:02:42.292  INFO 14020 --- [RMI TCP Connection(10)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62fdb4a6: startup date [Wed Jan 10 15:57:52 CST 2018]; root of context hierarchy
 2018-01-10 16:02:42.293  INFO 14020 --- [RMI TCP Connection(10)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-10 17:47:52.123  INFO 1236 --- [main] com.cechr.test.SpringBootWebApplication  : Starting SpringBootWebApplication on GuoGuo-PC with PID 1236 (D:\GuoGuo\Git\Repository\test\target\classes started by GuoGuo in D:\GuoGuo\Git\Repository\test)
+2018-01-10 17:47:52.180  INFO 1236 --- [main] com.cechr.test.SpringBootWebApplication  : No active profile set, falling back to default profiles: default
+2018-01-10 17:47:52.346  INFO 1236 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b59d31: startup date [Wed Jan 10 17:47:52 CST 2018]; root of context hierarchy
+2018-01-10 17:47:55.554  INFO 1236 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-01-10 17:47:55.594  INFO 1236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-10 17:47:55.596  INFO 1236 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-10 17:47:56.439  INFO 1236 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-10 17:47:56.445  INFO 1236 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-10 17:47:56.445  INFO 1236 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4145 ms
+2018-01-10 17:47:56.585  INFO 1236 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-10 17:47:56.589  INFO 1236 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-10 17:47:56.589  INFO 1236 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-10 17:47:56.589  INFO 1236 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-10 17:47:56.590  INFO 1236 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-10 17:47:57.354  INFO 1236 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b59d31: startup date [Wed Jan 10 17:47:52 CST 2018]; root of context hierarchy
+2018-01-10 17:48:38.902  INFO 1236 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.cechr.test.controller.WelcomeController.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-10 17:48:38.908  INFO 1236 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/hello]}" onto public java.lang.String com.cechr.test.TestApplication.sayHello()
+2018-01-10 17:48:38.914  INFO 1236 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-10 17:48:38.916  INFO 1236 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-10 17:48:38.982  INFO 1236 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-10 17:48:38.982  INFO 1236 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-10 17:48:39.024  INFO 1236 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-10 17:48:39.216  INFO 1236 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-10 17:48:39.392  INFO 1236 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-01-10 17:48:39.397  INFO 1236 --- [main] com.cechr.test.SpringBootWebApplication  : Started SpringBootWebApplication in 47.825 seconds (JVM running for 56.249)
+2018-01-10 17:49:45.147  INFO 1236 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-10 17:49:45.148  INFO 1236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-10 17:49:45.171  INFO 1236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2018-01-10 18:04:56.722  INFO 1236 --- [RMI TCP Connection(23)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-01-10 18:04:56.723  INFO 1236 --- [RMI TCP Connection(23)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b59d31: startup date [Wed Jan 10 17:47:52 CST 2018]; root of context hierarchy
+2018-01-10 18:04:56.726  INFO 1236 --- [RMI TCP Connection(23)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-10 18:05:08.252  INFO 1840 --- [main] com.cechr.test.SpringBootWebApplication  : Starting SpringBootWebApplication on GuoGuo-PC with PID 1840 (D:\GuoGuo\Git\Repository\test\target\classes started by GuoGuo in D:\GuoGuo\Git\Repository\test)
+2018-01-10 18:05:08.263  INFO 1840 --- [main] com.cechr.test.SpringBootWebApplication  : No active profile set, falling back to default profiles: default
+2018-01-10 18:05:08.388  INFO 1840 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b59d31: startup date [Wed Jan 10 18:05:08 CST 2018]; root of context hierarchy
+2018-01-10 18:05:10.440  INFO 1840 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-01-10 18:05:10.450  INFO 1840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-10 18:05:10.451  INFO 1840 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-10 18:05:10.742  INFO 1840 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-10 18:05:10.746  INFO 1840 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-10 18:05:10.747  INFO 1840 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2398 ms
+2018-01-10 18:05:10.890  INFO 1840 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-10 18:05:10.894  INFO 1840 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-10 18:05:10.895  INFO 1840 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-10 18:05:10.895  INFO 1840 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-10 18:05:10.896  INFO 1840 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-10 18:05:11.301  INFO 1840 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b59d31: startup date [Wed Jan 10 18:05:08 CST 2018]; root of context hierarchy
+2018-01-10 18:05:11.347  INFO 1840 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/welcome]}" onto public java.lang.String com.cechr.test.controller.WelcomeController.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-10 18:05:11.349  INFO 1840 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/hello]}" onto public java.lang.String com.cechr.test.TestApplication.sayHello()
+2018-01-10 18:05:11.351  INFO 1840 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-10 18:05:11.352  INFO 1840 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-10 18:05:11.385  INFO 1840 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-10 18:05:11.385  INFO 1840 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-10 18:05:11.418  INFO 1840 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-10 18:05:11.551  INFO 1840 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-10 18:05:11.638  INFO 1840 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-01-10 18:05:11.643  INFO 1840 --- [main] com.cechr.test.SpringBootWebApplication  : Started SpringBootWebApplication in 3.926 seconds (JVM running for 7.287)
+2018-01-10 18:05:19.015  INFO 1840 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-10 18:05:19.015  INFO 1840 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-10 18:05:19.031  INFO 1840 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2018-01-10 18:05:23.405  INFO 1840 --- [http-nio-8080-exec-2] c.c.test.controller.WelcomeController    : Welcome AppProperties{error='/error/ï¿½ï¿½', <br>menus=[ <br>&nbsp;&nbsp;Menu{name='Home', path='/', title='Home'}, <br>&nbsp;&nbsp;Menu{name='Login', path='/login', title='Login'}<br>], <br> compiler=Compiler{thimeout='5', outputFolder='/temp/'}<br>}<br>, GlobalProperties{threadPool=10, email='guoguo@163.com'}
+2018-01-10 18:06:12.694  INFO 1840 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-01-10 18:06:12.694  INFO 1840 --- [RMI TCP Connection(5)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b59d31: startup date [Wed Jan 10 18:05:08 CST 2018]; root of context hierarchy
+2018-01-10 18:06:12.697  INFO 1840 --- [RMI TCP Connection(5)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-11 10:15:01.344  INFO 13448 --- [main] com.cechr.test.SpringBootWebApplication  : Starting SpringBootWebApplication v0.0.1-SNAPSHOT on GuoGuo-PC with PID 13448 (D:\GuoGuo\Git\Repository\test\target\test-0.0.1-SNAPSHOT.jar started by GuoGuo in D:\GuoGuo\Git\Repository\test)
+2018-01-11 10:15:01.375  INFO 13448 --- [main] com.cechr.test.SpringBootWebApplication  : No active profile set, falling back to default profiles: default
+2018-01-11 10:15:01.687  INFO 13448 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a2e4553: startup date [Thu Jan 11 10:15:01 CST 2018]; root of context hierarchy
+2018-01-11 10:15:08.773  INFO 13448 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-01-11 10:15:08.802  INFO 13448 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-11 10:15:08.821  INFO 13448 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-11 10:15:09.880  INFO 13448 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-11 10:15:10.226  INFO 13448 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-11 10:15:10.230  INFO 13448 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8596 ms
+2018-01-11 10:15:10.483  INFO 13448 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 10:15:10.497  INFO 13448 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 10:15:10.501  INFO 13448 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 10:15:10.504  INFO 13448 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 10:15:10.509  INFO 13448 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 10:15:11.449  INFO 13448 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a2e4553: startup date [Thu Jan 11 10:15:01 CST 2018]; root of context hierarchy
+2018-01-11 10:15:11.829  INFO 13448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/welcome]}" onto public java.lang.String com.cechr.test.controller.WelcomeController.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-11 10:15:11.836  INFO 13448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/hello]}" onto public java.lang.String com.cechr.test.TestApplication.sayHello()
+2018-01-11 10:15:11.845  INFO 13448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 10:15:11.854  INFO 13448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 10:15:11.921  INFO 13448 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 10:15:11.926  INFO 13448 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 10:15:12.013  INFO 13448 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 10:15:13.040  INFO 13448 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-11 10:15:15.360  INFO 13448 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-01-11 10:15:15.545  INFO 13448 --- [main] com.cechr.test.SpringBootWebApplication  : Started SpringBootWebApplication in 15.482 seconds (JVM running for 17.921)
+2018-01-11 10:15:47.208  INFO 13448 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-11 10:15:47.211  INFO 13448 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-11 10:15:47.264  INFO 13448 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 51 ms
+2018-01-11 10:16:31.107  INFO 13448 --- [http-nio-8080-exec-3] c.c.test.controller.WelcomeController    : Welcome AppProperties{error='/error/??????', <br>menus=[ <br>&nbsp;&nbsp;Menu{name='Home', path='/', title='Home'}, <br>&nbsp;&nbsp;Menu{name='Login', path='/login', title='Login'}<br>], <br> compiler=Compiler{thimeout='5', outputFolder='/temp/'}<br>}<br>, GlobalProperties{threadPool=10, email='guoguo@163.com'}
+2018-01-11 10:48:15.279  INFO 13448 --- [Thread-4] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a2e4553: startup date [Thu Jan 11 10:15:01 CST 2018]; root of context hierarchy
+2018-01-11 10:48:15.314  INFO 13448 --- [Thread-4] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-11 11:45:30.440  INFO 10296 --- [main] com.cechr.test.SpringBootWebApplication  : Starting SpringBootWebApplication on GuoGuo-PC with PID 10296 (D:\GuoGuo\Git\Repository\test\target\classes started by GuoGuo in D:\GuoGuo\Git\Repository\test)
+2018-01-11 11:45:30.514  INFO 10296 --- [main] com.cechr.test.SpringBootWebApplication  : No active profile set, falling back to default profiles: default
+2018-01-11 11:45:30.675  INFO 10296 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5c153a22: startup date [Thu Jan 11 11:45:30 CST 2018]; root of context hierarchy
+2018-01-11 11:45:35.203  INFO 10296 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-01-11 11:45:35.236  INFO 10296 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-11 11:45:35.240  INFO 10296 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-11 11:45:35.766  INFO 10296 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-11 11:45:35.797  INFO 10296 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-11 11:45:35.801  INFO 10296 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5141 ms
+2018-01-11 11:45:36.116  INFO 10296 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 11:45:36.125  INFO 10296 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 11:45:36.131  INFO 10296 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 11:45:36.136  INFO 10296 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 11:45:36.141  INFO 10296 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 11:45:37.048  INFO 10296 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5c153a22: startup date [Thu Jan 11 11:45:30 CST 2018]; root of context hierarchy
+2018-01-11 11:45:37.270  INFO 10296 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/welcome]}" onto public java.lang.String com.cechr.test.controller.WelcomeController.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-11 11:45:37.278  INFO 10296 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/hello]}" onto public java.lang.String com.cechr.test.TestApplication.sayHello()
+2018-01-11 11:45:37.290  INFO 10296 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 11:45:37.302  INFO 10296 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 11:45:37.370  INFO 10296 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 11:45:37.377  INFO 10296 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 11:45:37.464  INFO 10296 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 11:45:37.787  INFO 10296 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-11 11:45:38.056  INFO 10296 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-01-11 11:45:38.071  INFO 10296 --- [main] com.cechr.test.SpringBootWebApplication  : Started SpringBootWebApplication in 8.326 seconds (JVM running for 14.243)
+2018-01-11 11:45:43.316  INFO 10296 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-11 11:45:43.320  INFO 10296 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-11 11:45:43.356  INFO 10296 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms
+2018-01-11 11:45:43.465  INFO 10296 --- [http-nio-8080-exec-2] c.c.test.controller.WelcomeController    : Welcome AppProperties{error='/error/??', <br>menus=[ <br>&nbsp;&nbsp;Menu{name='Home', path='/', title='Home'}, <br>&nbsp;&nbsp;Menu{name='Login', path='/login', title='Login'}<br>], <br> compiler=Compiler{thimeout='5', outputFolder='/temp/'}<br>}<br>, GlobalProperties{threadPool=10, email='guoguo@163.com'}
+2018-01-11 11:46:14.623  INFO 10296 --- [Thread-4] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5c153a22: startup date [Thu Jan 11 11:45:30 CST 2018]; root of context hierarchy
+2018-01-11 11:46:14.648  INFO 10296 --- [Thread-4] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-11 12:05:35.729  INFO 3676 --- [main] com.cechr.test.SpringBootWebApplication  : Starting SpringBootWebApplication on GuoGuo-PC with PID 3676 (D:\GuoGuo\Git\Repository\test\target\classes started by GuoGuo in D:\GuoGuo\Git\Repository\test)
+2018-01-11 12:05:35.805  INFO 3676 --- [main] com.cechr.test.SpringBootWebApplication  : No active profile set, falling back to default profiles: default
+2018-01-11 12:05:36.524  INFO 3676 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62fdb4a6: startup date [Thu Jan 11 12:05:36 CST 2018]; root of context hierarchy
+2018-01-11 12:05:45.633  INFO 3676 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-01-11 12:05:45.674  INFO 3676 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-11 12:05:45.675  INFO 3676 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-11 12:05:46.169  INFO 3676 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-11 12:05:46.175  INFO 3676 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-11 12:05:46.175  INFO 3676 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9890 ms
+2018-01-11 12:05:46.363  INFO 3676 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 12:05:46.371  INFO 3676 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 12:05:46.372  INFO 3676 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 12:05:46.372  INFO 3676 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 12:05:46.372  INFO 3676 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 12:05:47.459  INFO 3676 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62fdb4a6: startup date [Thu Jan 11 12:05:36 CST 2018]; root of context hierarchy
+2018-01-11 12:05:47.554  INFO 3676 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/welcome]}" onto public java.lang.String com.cechr.test.controller.WelcomeController.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-11 12:05:47.556  INFO 3676 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/hello]}" onto public java.lang.String com.cechr.test.TestApplication.sayHello()
+2018-01-11 12:05:47.559  INFO 3676 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 12:05:47.560  INFO 3676 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 12:05:47.606  INFO 3676 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 12:05:47.606  INFO 3676 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 12:05:47.650  INFO 3676 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 12:05:47.816  INFO 3676 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-11 12:05:47.956  INFO 3676 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-01-11 12:05:47.960  INFO 3676 --- [main] com.cechr.test.SpringBootWebApplication  : Started SpringBootWebApplication in 12.772 seconds (JVM running for 16.451)
+2018-01-11 12:05:59.624  INFO 3676 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-11 12:05:59.625  INFO 3676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-11 12:05:59.649  INFO 3676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-01-11 12:05:59.710  INFO 3676 --- [http-nio-8080-exec-1] c.c.test.controller.WelcomeController    : Welcome AppProperties{error='/error/', <br>menus=[ <br>&nbsp;&nbsp;Menu{name='Home', path='/', title='Home'}, <br>&nbsp;&nbsp;Menu{name='Login', path='/login', title='Login'}<br>], <br> compiler=Compiler{thimeout='5', outputFolder='/temp/'}<br>}<br>, GlobalProperties{threadPool=10, email='guoguo@163.com'}
+2018-01-11 14:11:05.950  INFO 3676 --- [http-nio-8080-exec-9] c.c.test.controller.WelcomeController    : Welcome AppProperties{error='/error/', <br>menus=[ <br>&nbsp;&nbsp;Menu{name='Home', path='/', title='Home'}, <br>&nbsp;&nbsp;Menu{name='Login', path='/login', title='Login'}<br>], <br> compiler=Compiler{thimeout='5', outputFolder='/temp/'}<br>}<br>, GlobalProperties{threadPool=10, email='guoguo@163.com'}
+2018-01-11 14:12:03.685  INFO 3676 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-01-11 14:12:03.686  INFO 3676 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62fdb4a6: startup date [Thu Jan 11 12:05:36 CST 2018]; root of context hierarchy
+2018-01-11 14:12:03.688  INFO 3676 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-11 14:14:53.253  INFO 12128 --- [main] com.cechr.test.SpringBootWebApplication  : Starting SpringBootWebApplication on GuoGuo-PC with PID 12128 (D:\GuoGuo\Git\Repository\test\target\classes started by GuoGuo in D:\GuoGuo\Git\Repository\test)
+2018-01-11 14:14:53.280  INFO 12128 --- [main] com.cechr.test.SpringBootWebApplication  : No active profile set, falling back to default profiles: default
+2018-01-11 14:14:53.411  INFO 12128 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2d1ffcdd: startup date [Thu Jan 11 14:14:53 CST 2018]; root of context hierarchy
+2018-01-11 14:14:59.280  INFO 12128 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-01-11 14:14:59.383  INFO 12128 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-11 14:14:59.412  INFO 12128 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-11 14:15:00.835  INFO 12128 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-11 14:15:00.865  INFO 12128 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-11 14:15:00.869  INFO 12128 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7465 ms
+2018-01-11 14:15:01.213  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 14:15:01.226  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 14:15:01.230  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 14:15:01.235  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 14:15:01.242  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 14:15:02.954  INFO 12128 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2d1ffcdd: startup date [Thu Jan 11 14:14:53 CST 2018]; root of context hierarchy
+2018-01-11 14:15:03.237  INFO 12128 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/welcome]}" onto public java.lang.String com.cechr.test.controller.WelcomeController.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-11 14:15:03.244  INFO 12128 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/hello]}" onto public java.lang.String com.cechr.test.TestApplication.sayHello()
+2018-01-11 14:15:03.255  INFO 12128 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 14:15:03.267  INFO 12128 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 14:15:03.323  INFO 12128 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 14:15:03.331  INFO 12128 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 14:15:03.391  INFO 12128 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 14:15:04.445  INFO 12128 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-11 14:15:05.185  INFO 12128 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-01-11 14:15:05.196  INFO 12128 --- [main] com.cechr.test.SpringBootWebApplication  : Started SpringBootWebApplication in 12.663 seconds (JVM running for 21.289)
+2018-01-11 14:15:12.811  INFO 12128 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-11 14:15:12.820  INFO 12128 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-11 14:15:12.887  INFO 12128 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 63 ms
+2018-01-11 14:15:12.988  INFO 12128 --- [http-nio-8080-exec-1] c.c.test.controller.WelcomeController    : Welcome AppProperties{error='/error/??', <br>menus=[ <br>&nbsp;&nbsp;Menu{name='Home', path='/', title='Home'}, <br>&nbsp;&nbsp;Menu{name='Login', path='/login', title='Login'}<br>], <br> compiler=Compiler{thimeout='5', outputFolder='/temp/'}<br>}<br>, GlobalProperties{threadPool=10, email='guoguo@163.com'}
+2018-01-11 14:15:59.961  INFO 12128 --- [Thread-4] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2d1ffcdd: startup date [Thu Jan 11 14:14:53 CST 2018]; root of context hierarchy
+2018-01-11 14:15:59.987  INFO 12128 --- [Thread-4] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-11 14:27:07.400  INFO 9472 --- [main] com.cechr.test.SpringBootWebApplication  : Starting SpringBootWebApplication on GuoGuo-PC with PID 9472 (D:\GuoGuo\Git\Repository\test\target\classes started by GuoGuo in D:\GuoGuo\Git\Repository\test)
+2018-01-11 14:27:07.578  INFO 9472 --- [main] com.cechr.test.SpringBootWebApplication  : No active profile set, falling back to default profiles: default
+2018-01-11 14:27:08.500  INFO 9472 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65cc5dc6: startup date [Thu Jan 11 14:27:08 CST 2018]; root of context hierarchy
+2018-01-11 14:27:14.212  INFO 9472 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-01-11 14:27:14.248  INFO 9472 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-11 14:27:14.255  INFO 9472 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-11 14:27:15.011  INFO 9472 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-11 14:27:15.035  INFO 9472 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-11 14:27:15.039  INFO 9472 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6544 ms
+2018-01-11 14:27:15.254  INFO 9472 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 14:27:15.265  INFO 9472 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 14:27:15.270  INFO 9472 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 14:27:15.274  INFO 9472 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 14:27:15.279  INFO 9472 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 14:27:16.124  INFO 9472 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65cc5dc6: startup date [Thu Jan 11 14:27:08 CST 2018]; root of context hierarchy
+2018-01-11 14:27:16.282  INFO 9472 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/welcome]}" onto public java.lang.String com.cechr.test.controller.WelcomeController.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-11 14:27:16.304  INFO 9472 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/hello]}" onto public java.lang.String com.cechr.test.TestApplication.sayHello()
+2018-01-11 14:27:16.336  INFO 9472 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 14:27:16.364  INFO 9472 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 14:27:16.485  INFO 9472 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 14:27:16.492  INFO 9472 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 14:27:16.560  INFO 9472 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 14:27:16.861  INFO 9472 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-11 14:27:17.074  INFO 9472 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-01-11 14:27:17.088  INFO 9472 --- [main] com.cechr.test.SpringBootWebApplication  : Started SpringBootWebApplication in 10.316 seconds (JVM running for 19.34)
+2018-01-11 14:27:21.304  INFO 9472 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-11 14:27:21.308  INFO 9472 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-11 14:27:21.360  INFO 9472 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 44 ms
+2018-01-11 14:27:21.465  INFO 9472 --- [http-nio-8080-exec-1] c.c.test.controller.WelcomeController    : Welcome AppProperties{error='/error/??', <br>menus=[ <br>&nbsp;&nbsp;Menu{name='Home', path='/', title='Home'}, <br>&nbsp;&nbsp;Menu{name='Login', path='/login', title='Login'}<br>], <br> compiler=Compiler{thimeout='5', outputFolder='/temp/'}<br>}<br>, GlobalProperties{threadPool=10, email='guoguo@163.com'}
+2018-01-11 14:27:34.020  INFO 9472 --- [Thread-4] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65cc5dc6: startup date [Thu Jan 11 14:27:08 CST 2018]; root of context hierarchy
+2018-01-11 14:27:34.044  INFO 9472 --- [Thread-4] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-11 14:32:48.182  INFO 11068 --- [main] com.cechr.test.SpringBootWebApplication  : Starting SpringBootWebApplication on GuoGuo-PC with PID 11068 (D:\GuoGuo\Git\Repository\test\target\classes started by GuoGuo in D:\GuoGuo\Git\Repository\test)
+2018-01-11 14:32:48.225  INFO 11068 --- [main] com.cechr.test.SpringBootWebApplication  : No active profile set, falling back to default profiles: default
+2018-01-11 14:32:48.373  INFO 11068 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@261e93ef: startup date [Thu Jan 11 14:32:48 CST 2018]; root of context hierarchy
+2018-01-11 14:32:55.126  INFO 11068 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-01-11 14:32:55.148  INFO 11068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-11 14:32:55.156  INFO 11068 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-11 14:32:55.557  INFO 11068 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-11 14:32:55.575  INFO 11068 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-11 14:32:55.582  INFO 11068 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7289 ms
+2018-01-11 14:32:55.843  INFO 11068 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 14:32:55.856  INFO 11068 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 14:32:55.865  INFO 11068 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 14:32:55.870  INFO 11068 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 14:32:55.875  INFO 11068 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 14:32:56.488  INFO 11068 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@261e93ef: startup date [Thu Jan 11 14:32:48 CST 2018]; root of context hierarchy
+2018-01-11 14:32:56.627  INFO 11068 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/welcome]}" onto public java.lang.String com.cechr.test.controller.WelcomeController.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-11 14:32:56.637  INFO 11068 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/hello]}" onto public java.lang.String com.cechr.test.TestApplication.sayHello()
+2018-01-11 14:32:56.652  INFO 11068 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 14:32:56.660  INFO 11068 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 14:32:56.727  INFO 11068 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 14:32:56.735  INFO 11068 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 14:32:56.802  INFO 11068 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 14:32:57.629  INFO 11068 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-11 14:32:58.243 ERROR 11068 --- [main] o.a.coyote.http11.Http11NioProtocol      : Failed to start end point associated with ProtocolHandler ["http-nio-8080"]
+
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_112]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_112]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_112]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_112]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_112]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.cechr.test.SpringBootWebApplication.main(SpringBootWebApplication.java:19) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_112]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_112]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_112]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_112]
+	at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:527) [spring-boot-maven-plugin-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_112]
+
+2018-01-11 14:32:58.349 ERROR 11068 --- [main] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.cechr.test.SpringBootWebApplication.main(SpringBootWebApplication.java:19) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_112]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_112]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_112]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_112]
+	at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:527) [spring-boot-maven-plugin-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_112]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1031) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	... 19 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_112]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_112]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_112]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_112]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_112]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	... 20 common frames omitted
+
+2018-01-11 14:33:01.942  INFO 11068 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-01-11 14:33:02.004  INFO 11068 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-01-11 14:33:02.017 ERROR 11068 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-01-11 14:33:02.040  INFO 11068 --- [main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@261e93ef: startup date [Thu Jan 11 14:32:48 CST 2018]; root of context hierarchy
+2018-01-11 14:33:02.048  INFO 11068 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-11 14:33:26.409  INFO 12520 --- [main] com.cechr.test.SpringBootWebApplication  : Starting SpringBootWebApplication on GuoGuo-PC with PID 12520 (D:\GuoGuo\Git\Repository\test\target\classes started by GuoGuo in D:\GuoGuo\Git\Repository\test)
+2018-01-11 14:33:26.425  INFO 12520 --- [main] com.cechr.test.SpringBootWebApplication  : No active profile set, falling back to default profiles: default
+2018-01-11 14:33:26.572  INFO 12520 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74883b91: startup date [Thu Jan 11 14:33:26 CST 2018]; root of context hierarchy
+2018-01-11 14:33:29.583  INFO 12520 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-01-11 14:33:29.615  INFO 12520 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-11 14:33:29.621  INFO 12520 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-11 14:33:30.017  INFO 12520 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-11 14:33:30.037  INFO 12520 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-11 14:33:30.042  INFO 12520 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3476 ms
+2018-01-11 14:33:30.298  INFO 12520 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 14:33:30.313  INFO 12520 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 14:33:30.320  INFO 12520 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 14:33:30.327  INFO 12520 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 14:33:30.332  INFO 12520 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 14:33:31.112  INFO 12520 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74883b91: startup date [Thu Jan 11 14:33:26 CST 2018]; root of context hierarchy
+2018-01-11 14:33:31.261  INFO 12520 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/welcome]}" onto public java.lang.String com.cechr.test.controller.WelcomeController.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-11 14:33:31.277  INFO 12520 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/hello]}" onto public java.lang.String com.cechr.test.TestApplication.sayHello()
+2018-01-11 14:33:31.297  INFO 12520 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 14:33:31.309  INFO 12520 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 14:33:31.378  INFO 12520 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 14:33:31.384  INFO 12520 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 14:33:31.447  INFO 12520 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 14:33:31.649  INFO 12520 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-11 14:33:33.521  INFO 12520 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-01-11 14:33:33.535  INFO 12520 --- [main] com.cechr.test.SpringBootWebApplication  : Started SpringBootWebApplication in 7.646 seconds (JVM running for 13.297)
+2018-01-11 14:33:38.899  INFO 12520 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-11 14:33:38.903  INFO 12520 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-11 14:33:38.952  INFO 12520 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 43 ms
+2018-01-11 14:33:39.181  INFO 12520 --- [http-nio-8080-exec-1] c.c.test.controller.WelcomeController    : Welcome AppProperties{error='/error/??', <br>menus=[ <br>&nbsp;&nbsp;Menu{name='Home', path='/', title='Home'}, <br>&nbsp;&nbsp;Menu{name='Login', path='/login', title='Login'}<br>], <br> compiler=Compiler{thimeout='5', outputFolder='/temp/'}<br>}<br>, GlobalProperties{threadPool=10, email='guoguo@163.com'}
+2018-01-11 14:35:54.418  INFO 12520 --- [http-nio-8080-exec-3] c.c.test.controller.WelcomeController    : Welcome AppProperties{error='/error/??', <br>menus=[ <br>&nbsp;&nbsp;Menu{name='Home', path='/', title='Home'}, <br>&nbsp;&nbsp;Menu{name='Login', path='/login', title='Login'}<br>], <br> compiler=Compiler{thimeout='5', outputFolder='/temp/'}<br>}<br>, GlobalProperties{threadPool=10, email='guoguo@163.com'}
+2018-01-11 14:36:59.086  INFO 12520 --- [Thread-4] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74883b91: startup date [Thu Jan 11 14:33:26 CST 2018]; root of context hierarchy
+2018-01-11 14:36:59.111  INFO 12520 --- [Thread-4] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-11 14:58:05.931  INFO 11160 --- [main] com.cechr.test.SpringBootWebApplication  : Starting SpringBootWebApplication on GuoGuo-PC with PID 11160 (D:\GuoGuo\Git\Repository\test\target\classes started by GuoGuo in D:\GuoGuo\Git\Repository\test)
+2018-01-11 14:58:05.942  INFO 11160 --- [main] com.cechr.test.SpringBootWebApplication  : No active profile set, falling back to default profiles: default
+2018-01-11 14:58:06.086  INFO 11160 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@569c9dfc: startup date [Thu Jan 11 14:58:06 CST 2018]; root of context hierarchy
+2018-01-11 14:58:16.290  INFO 11160 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-01-11 14:58:16.467  INFO 11160 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-11 14:58:16.471  INFO 11160 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-11 14:58:17.105  INFO 11160 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-11 14:58:17.129  INFO 11160 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-11 14:58:17.134  INFO 11160 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 11053 ms
+2018-01-11 14:58:17.338  INFO 11160 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 14:58:17.346  INFO 11160 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 14:58:17.352  INFO 11160 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 14:58:17.357  INFO 11160 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 14:58:17.362  INFO 11160 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 14:58:18.116  INFO 11160 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@569c9dfc: startup date [Thu Jan 11 14:58:06 CST 2018]; root of context hierarchy
+2018-01-11 14:58:18.289  INFO 11160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/welcome]}" onto public java.lang.String com.cechr.test.controller.WelcomeController.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-11 14:58:18.298  INFO 11160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/hello]}" onto public java.lang.String com.cechr.test.TestApplication.sayHello()
+2018-01-11 14:58:18.318  INFO 11160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 14:58:18.331  INFO 11160 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 14:58:18.394  INFO 11160 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 14:58:18.398  INFO 11160 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 14:58:18.454  INFO 11160 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 14:58:18.723  INFO 11160 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-11 14:58:19.241  INFO 11160 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-01-11 14:58:19.253  INFO 11160 --- [main] com.cechr.test.SpringBootWebApplication  : Started SpringBootWebApplication in 14.144 seconds (JVM running for 21.24)
+2018-01-11 14:58:45.303  INFO 11160 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-11 14:58:45.308  INFO 11160 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-11 14:58:45.457  INFO 11160 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 146 ms
+2018-01-11 14:58:52.964  INFO 11160 --- [http-nio-8080-exec-1] c.c.test.controller.WelcomeController    : Welcome AppProperties{error='/error/??', <br>menus=[ <br>&nbsp;&nbsp;Menu{name='Home', path='/', title='Home'}, <br>&nbsp;&nbsp;Menu{name='Login', path='/login', title='Login'}<br>], <br> compiler=Compiler{thimeout='5', outputFolder='/temp/'}<br>}<br>, GlobalProperties{threadPool=10, email='guoguo@163.com'}
+2018-01-11 15:00:10.375  INFO 11160 --- [Thread-4] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@569c9dfc: startup date [Thu Jan 11 14:58:06 CST 2018]; root of context hierarchy
+2018-01-11 15:00:10.395  INFO 11160 --- [Thread-4] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-11 15:01:42.787  INFO 11824 --- [main] com.cechr.test.SpringBootWebApplication  : Starting SpringBootWebApplication on GuoGuo-PC with PID 11824 (D:\GuoGuo\Git\Repository\test\target\classes started by GuoGuo in D:\GuoGuo\Git\Repository\test)
+2018-01-11 15:01:42.803  INFO 11824 --- [main] com.cechr.test.SpringBootWebApplication  : No active profile set, falling back to default profiles: default
+2018-01-11 15:01:42.979  INFO 11824 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79d01295: startup date [Thu Jan 11 15:01:42 CST 2018]; root of context hierarchy
+2018-01-11 15:01:46.092  INFO 11824 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-01-11 15:01:46.136  INFO 11824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-11 15:01:46.142  INFO 11824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-11 15:01:46.637  INFO 11824 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-11 15:01:46.660  INFO 11824 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-11 15:01:46.665  INFO 11824 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3692 ms
+2018-01-11 15:01:46.907  INFO 11824 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 15:01:46.917  INFO 11824 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 15:01:46.924  INFO 11824 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 15:01:46.929  INFO 11824 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 15:01:46.934  INFO 11824 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 15:01:47.629  INFO 11824 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79d01295: startup date [Thu Jan 11 15:01:42 CST 2018]; root of context hierarchy
+2018-01-11 15:01:47.745  INFO 11824 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/welcome]}" onto public java.lang.String com.cechr.test.controller.WelcomeController.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-11 15:01:47.755  INFO 11824 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/hello]}" onto public java.lang.String com.cechr.test.TestApplication.sayHello()
+2018-01-11 15:01:47.767  INFO 11824 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 15:01:47.783  INFO 11824 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 15:01:47.843  INFO 11824 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 15:01:47.850  INFO 11824 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 15:01:47.906  INFO 11824 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 15:01:48.130  INFO 11824 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-11 15:01:48.316  INFO 11824 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-01-11 15:01:48.331  INFO 11824 --- [main] com.cechr.test.SpringBootWebApplication  : Started SpringBootWebApplication in 6.111 seconds (JVM running for 12.115)
+2018-01-11 15:01:53.100  INFO 11824 --- [http-nio-8080-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-11 15:01:53.108  INFO 11824 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-11 15:01:53.152  INFO 11824 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 37 ms
+2018-01-11 15:01:53.237  INFO 11824 --- [http-nio-8080-exec-10] c.c.test.controller.WelcomeController    : Welcome AppProperties{error='/error/??', <br>menus=[ <br>&nbsp;&nbsp;Menu{name='Home', path='/', title='Home'}, <br>&nbsp;&nbsp;Menu{name='Login', path='/login', title='Login'}<br>], <br> compiler=Compiler{thimeout='5', outputFolder='/temp/'}<br>}<br>, GlobalProperties{threadPool=10, email='guoguo@163.com'}
+2018-01-11 15:02:35.128  INFO 11824 --- [Thread-4] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79d01295: startup date [Thu Jan 11 15:01:42 CST 2018]; root of context hierarchy
+2018-01-11 15:02:35.154  INFO 11824 --- [Thread-4] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-11 15:28:50.200  INFO 9468 --- [main] com.cechr.test.SpringBootWebApplication  : Starting SpringBootWebApplication on GuoGuo-PC with PID 9468 (d:\GuoGuo\Git\Repository\test\target\classes started by GuoGuo in d:\GuoGuo\Git\Repository\test)
+2018-01-11 15:28:50.234  INFO 9468 --- [main] com.cechr.test.SpringBootWebApplication  : No active profile set, falling back to default profiles: default
+2018-01-11 15:28:50.382  INFO 9468 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@768abda7: startup date [Thu Jan 11 15:28:50 CST 2018]; root of context hierarchy
+2018-01-11 15:28:54.983  INFO 9468 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-01-11 15:28:55.016  INFO 9468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-11 15:28:55.021  INFO 9468 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-11 15:28:55.595  INFO 9468 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-11 15:28:55.622  INFO 9468 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-11 15:28:55.627  INFO 9468 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5259 ms
+2018-01-11 15:28:55.866  INFO 9468 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 15:28:55.878  INFO 9468 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 15:28:55.891  INFO 9468 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 15:28:55.896  INFO 9468 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 15:28:55.900  INFO 9468 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 15:28:56.947  INFO 9468 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@768abda7: startup date [Thu Jan 11 15:28:50 CST 2018]; root of context hierarchy
+2018-01-11 15:28:57.509  INFO 9468 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/welcome]}" onto public java.lang.String com.cechr.test.controller.WelcomeController.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-11 15:28:57.517  INFO 9468 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/hello]}" onto public java.lang.String com.cechr.test.TestApplication.sayHello()
+2018-01-11 15:28:57.526  INFO 9468 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 15:28:57.540  INFO 9468 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 15:28:57.609  INFO 9468 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 15:28:57.614  INFO 9468 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 15:28:57.710  INFO 9468 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 15:28:58.100  INFO 9468 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-11 15:28:58.297  INFO 9468 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-01-11 15:28:58.310  INFO 9468 --- [main] com.cechr.test.SpringBootWebApplication  : Started SpringBootWebApplication in 8.679 seconds (JVM running for 19.014)
+2018-01-11 15:29:02.047  INFO 9468 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-11 15:29:02.055  INFO 9468 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-11 15:29:02.093  INFO 9468 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms
+2018-01-11 15:29:02.242  INFO 9468 --- [http-nio-8080-exec-1] c.c.test.controller.WelcomeController    : Welcome AppProperties{error='/error/??', <br>menus=[ <br>&nbsp;&nbsp;Menu{name='Home', path='/', title='Home'}, <br>&nbsp;&nbsp;Menu{name='Login', path='/login', title='Login'}<br>], <br> compiler=Compiler{thimeout='5', outputFolder='/temp/'}<br>}<br>, GlobalProperties{threadPool=10, email='guoguo@163.com'}
+2018-01-11 15:32:10.215  INFO 9468 --- [Thread-4] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@768abda7: startup date [Thu Jan 11 15:28:50 CST 2018]; root of context hierarchy
+2018-01-11 15:32:10.241  INFO 9468 --- [Thread-4] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-11 15:48:01.492  INFO 9520 --- [main] com.cechr.test.SpringBootWebApplication  : Starting SpringBootWebApplication on GuoGuo-PC with PID 9520 (D:\GuoGuo\Git\Repository\test\target\classes started by GuoGuo in D:\GuoGuo\Git\Repository\test)
+2018-01-11 15:48:01.497  INFO 9520 --- [main] com.cechr.test.SpringBootWebApplication  : No active profile set, falling back to default profiles: default
+2018-01-11 15:48:01.630  INFO 9520 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62fdb4a6: startup date [Thu Jan 11 15:48:01 CST 2018]; root of context hierarchy
+2018-01-11 15:48:03.647  INFO 9520 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-01-11 15:48:03.666  INFO 9520 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-11 15:48:03.668  INFO 9520 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-11 15:48:03.966  INFO 9520 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-11 15:48:03.981  INFO 9520 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-11 15:48:03.982  INFO 9520 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2354 ms
+2018-01-11 15:48:04.160  INFO 9520 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-11 15:48:04.164  INFO 9520 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-11 15:48:04.164  INFO 9520 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-11 15:48:04.165  INFO 9520 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-11 15:48:04.165  INFO 9520 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-11 15:48:04.740  INFO 9520 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62fdb4a6: startup date [Thu Jan 11 15:48:01 CST 2018]; root of context hierarchy
+2018-01-11 15:48:04.862  INFO 9520 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/welcome]}" onto public java.lang.String com.cechr.test.controller.WelcomeController.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-01-11 15:48:04.864  INFO 9520 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/hello]}" onto public java.lang.String com.cechr.test.TestApplication.sayHello()
+2018-01-11 15:48:04.869  INFO 9520 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-11 15:48:04.869  INFO 9520 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-11 15:48:04.915  INFO 9520 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 15:48:04.915  INFO 9520 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 15:48:04.957  INFO 9520 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-11 15:48:05.137  INFO 9520 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-11 15:48:05.393  INFO 9520 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-01-11 15:48:05.397  INFO 9520 --- [main] com.cechr.test.SpringBootWebApplication  : Started SpringBootWebApplication in 4.895 seconds (JVM running for 6.6)
+2018-01-11 15:48:15.109  INFO 9520 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-11 15:48:15.110  INFO 9520 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-11 15:48:15.125  INFO 9520 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2018-01-11 15:48:15.188  INFO 9520 --- [http-nio-8080-exec-1] c.c.test.controller.WelcomeController    : Welcome AppProperties{error='/error/ï¿½ï¿½', <br>menus=[ <br>&nbsp;&nbsp;Menu{name='Home', path='/', title='Home'}, <br>&nbsp;&nbsp;Menu{name='Login', path='/login', title='Login'}<br>], <br> compiler=Compiler{thimeout='5', outputFolder='/temp/'}<br>}<br>, GlobalProperties{threadPool=10, email='guoguo@163.com'}
+2018-01-11 15:49:00.530  INFO 9520 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-01-11 15:49:00.531  INFO 9520 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62fdb4a6: startup date [Thu Jan 11 15:48:01 CST 2018]; root of context hierarchy
+2018-01-11 15:49:00.532  INFO 9520 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown

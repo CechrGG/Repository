@@ -13,6 +13,7 @@ import com.cechr.test.properties.AppProperties;
 import com.cechr.test.properties.GlobalProperties;
 
 @Controller
+@RequestMapping("/")
 public class WelcomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(WelcomeController.class);
@@ -33,7 +34,7 @@ public class WelcomeController {
 	@Value("${welcome.message:hello}")
 	private String message = "hello world";
 	
-	@RequestMapping("/")
+	@RequestMapping("/welcome")
 	public String welcome(Map<String, Object> model) {
 		
 		String appProperties = app.toString();
@@ -44,4 +45,5 @@ public class WelcomeController {
 		model.put("message", appProperties  + globalProperties);
 		return "welcome";
 	}
+	
 }
