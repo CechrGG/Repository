@@ -2,6 +2,7 @@ package com.cechr.serverzuul;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
 import org.springframework.stereotype.Component;
 
 import com.netflix.zuul.ZuulFilter;
@@ -46,7 +47,7 @@ public class FilterTest extends ZuulFilter {
 	@Override
 	public String filterType() {
 		// TODO Auto-generated method stub
-		return "pre";
+		return FilterConstants.PRE_TYPE;
 	}
 
 }
