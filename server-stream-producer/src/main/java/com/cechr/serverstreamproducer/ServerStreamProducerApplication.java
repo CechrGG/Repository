@@ -1,22 +1,22 @@
 package com.cechr.serverstreamproducer;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
+//import java.text.SimpleDateFormat;
+//import java.util.Date;
+//
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.stream.annotation.EnableBinding;
-import org.springframework.cloud.stream.annotation.Output;
-import org.springframework.cloud.stream.messaging.Processor;
-import org.springframework.cloud.stream.messaging.Sink;
-import org.springframework.cloud.stream.messaging.Source;
-import org.springframework.context.ConfigurableApplicationContext;
-import org.springframework.integration.annotation.InboundChannelAdapter;
-import org.springframework.integration.support.MessageBuilder;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+//import org.springframework.cloud.stream.annotation.EnableBinding;
+//import org.springframework.cloud.stream.annotation.Output;
+//import org.springframework.cloud.stream.messaging.Processor;
+//import org.springframework.cloud.stream.messaging.Sink;
+//import org.springframework.cloud.stream.messaging.Source;
+//import org.springframework.context.ConfigurableApplicationContext;
+//import org.springframework.integration.annotation.InboundChannelAdapter;
+//import org.springframework.integration.support.MessageBuilder;
+//import org.springframework.web.bind.annotation.RequestMapping;
+//import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 //@EnableBinding(value = {Source.class})

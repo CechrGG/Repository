@@ -1,8 +1,8 @@
 package com.cechr.serverredis;
 
 import java.lang.reflect.Method;
-import java.util.HashMap;
-import java.util.Map;
+//import java.util.HashMap;
+//import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CachingConfigurerSupport;
@@ -16,11 +16,11 @@ import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
-import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
-
-import com.fasterxml.jackson.annotation.JsonAutoDetect;
-import com.fasterxml.jackson.annotation.PropertyAccessor;
-import com.fasterxml.jackson.databind.ObjectMapper;
+//import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
+//
+//import com.fasterxml.jackson.annotation.JsonAutoDetect;
+//import com.fasterxml.jackson.annotation.PropertyAccessor;
+//import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Configuration
 @EnableCaching
@@ -52,10 +52,10 @@ public class RedisConfig extends CachingConfigurerSupport {
 	@Bean
 	public CacheManager CacheManager(RedisTemplate redisTemplate) {
 		RedisCacheManager redisCM = new RedisCacheManager(redisTemplate);
-		redisCM.setDefaultExpiration(60);
-		Map<String, Long> map = new HashMap<String, Long>();
-		map.put("test", 60L);
-		redisCM.setExpires(map);
+//		redisCM.setDefaultExpiration(60);
+//		Map<String, Long> map = new HashMap<String, Long>();
+//		map.put("test", 60L);
+//		redisCM.setExpires(map);
 		return redisCM;
 	}
 	
@@ -70,16 +70,16 @@ public class RedisConfig extends CachingConfigurerSupport {
 	}
 	
 	//redisTemplate config
-	@SuppressWarnings({ "rawtypes", "unchecked" })
+	@SuppressWarnings({ })
 	@Bean
 	public RedisTemplate<String, String> redisTemplate(RedisConnectionFactory factory) {
 		StringRedisTemplate template = new StringRedisTemplate(factory);
-		Jackson2JsonRedisSerializer j2JRS = new Jackson2JsonRedisSerializer(Object.class);
-		ObjectMapper objMapper = new ObjectMapper();
-		objMapper.setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.ANY);
-		j2JRS.setObjectMapper(objMapper);
-		template.setValueSerializer(j2JRS);
-		template.afterPropertiesSet();
+//		Jackson2JsonRedisSerializer j2JRS = new Jackson2JsonRedisSerializer(Object.class);
+//		ObjectMapper objMapper = new ObjectMapper();
+//		objMapper.setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.ANY);
+//		j2JRS.setObjectMapper(objMapper);
+//		template.setValueSerializer(j2JRS);
+//		template.afterPropertiesSet();
 		return template;
 	}
 }
