@@ -1,4 +1,4 @@
-package com.cechr.servermabatis;
+package com.cechr.servermybatis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
